@@ -1,7 +1,7 @@
 package domain.airline_service;
 
-public class Insurance extends AirlineServiceDecorator{
-    public Insurance(AirlineService additionalService) {
+public class Insurance extends AirlineAsDecorator {
+    public Insurance(AirlineAs additionalService) {
         super(additionalService);
     }
 

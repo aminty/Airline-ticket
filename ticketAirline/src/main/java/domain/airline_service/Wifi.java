@@ -1,7 +1,7 @@
 package domain.airline_service;
 
-public class Wifi extends AirlineServiceDecorator{
-    public Wifi(AirlineService additionalService) {
+public class Wifi extends AirlineAsDecorator {
+    public Wifi(AirlineAs additionalService) {
         super(additionalService);
     }
 

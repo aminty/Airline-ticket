@@ -1,6 +1,6 @@
 package domain.airline_service;
 
-public class Base extends AirlineService{
+public class Base extends AirlineAs {
     @Override
     public double cost() {
         return 60_000;

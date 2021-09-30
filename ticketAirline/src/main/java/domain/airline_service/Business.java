@@ -1,8 +1,8 @@
 package domain.airline_service;
 
-public class Business extends AirlineServiceDecorator{
+public class Business extends AirlineAsDecorator {
 
-    public Business(AirlineService additionalService) {
+    public Business(AirlineAs additionalService) {
         super(additionalService);
     }
 

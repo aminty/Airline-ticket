@@ -1,7 +1,7 @@
 package domain.airline_service;
 
-public class Food extends AirlineServiceDecorator{
-    public Food(AirlineService additionalService) {
+public class Food extends AirlineAsDecorator {
+    public Food(AirlineAs additionalService) {
         super(additionalService);
     }
 

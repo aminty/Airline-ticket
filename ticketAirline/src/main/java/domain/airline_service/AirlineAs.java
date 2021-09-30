@@ -9,7 +9,7 @@ import javax.persistence.Entity;
 @Entity
 @Getter
 @Setter
-public abstract class AirlineService extends BaseEntity<Long> {
+public abstract class AirlineAs extends BaseEntity<Long> {
 
     public abstract double cost();
 
